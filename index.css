@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #7FC6F7;
+}
+
+
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #C5E1F7;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.login-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #32CD32;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+.music-player-container {
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #C5E1F7;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.music-player-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.music-player-header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.music-player-header .search-bar {
+    width: 100%;
+    max-width: 300px;
+    padding: 5px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.music-info {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.music-info h2 {
+    font-size: 1.5rem;
+}
+
+.music-info p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.music-controls {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.music-controls button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.music-controls img {
+    width: 30px;
+}
